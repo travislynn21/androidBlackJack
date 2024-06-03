@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/player_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Cards: "
+        android:textSize="18sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/dealer_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dealer Cards: "
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/deal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deal"
+        android:layout_below="@+id/dealer_cards"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
